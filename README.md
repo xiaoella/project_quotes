@@ -1,7 +1,4 @@
 # project_quotes
 
-If you want to run this then install these packages
-```
-pip install poo
-```
+Analysing quote data from historical projects of an architectural firm.
 
