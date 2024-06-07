@@ -7,3 +7,7 @@ def director_anonymisation(df, column):
     director_encoded = {directors[0]: "A", directors[1]: "B"}
     df[column] = df[column].replace(director_encoded)
     return df
+
+def ignore_na(df, column, value):
+    df.drop(df[df[column] == value].index, inplace=True)
+    return df
