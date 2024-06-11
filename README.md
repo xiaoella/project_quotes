@@ -1,7 +1,7 @@
 # Project Quotes
 
 ### Overview
-This project aims to work with a dataset of historical projects collected from an architectural firm. The goal is to identify patterns and provide insights to improve the accuracy for future project quotations.
+This project aims to work with a dataset of historical projects collected from an architectural firm. The goal is to identify patterns and provide insights, in order to improve the accuracy of the quotations, subsequently minimising unplanned overtime works for future projects.
 
 The project was inspired by my first-hand experience as an architect, where I observed a recurring challenge with project management and quoting accuracy in the industry. It is no doubt that accurate project quoting is crucial for both client satisfaction, and efficient resource and time management. I saw this opportunity to provide valuable insights using data-driven methods, in order to understand if there are any patterns and discrepancies behind the numbers. I hope this project can help the architectural firm to streamline their quoting process, ensuring more precise estimates and better time and resource planning going forward with future projects.
 
@@ -34,13 +34,18 @@ Current estimated property value resource: [Property Checker](https://propertych
 
 # Summary of Findings from Exploratory Data Analysis (EDA)
 ### 1. Director Impact
-Director A tends to quote fewer total hours but results in more overtime.
+1.1 Director A tends to quote fewer total hours but results in more overtime.
+![director hours](src/images/director2.png)
+1.2 Director A's projects experience timesheet recording issues, demonstrated by the missing values.
+![missing value rows](src/images/director1.png)
 
-It was  of whether A might have smaller projects, because  indicating potential underestimation of project time requirements. Initially, I 
 ### 2. Workload by Stage
-![](https://github.com/xiaoella/project_quotes/blob/src/images/stage1.png?raw=true)
-[src/images/stage1.png]
+![stages histogram](src/images/stage1.png)
+![stages barplot](src/images/stage2.png)
+![stages dataframe](src/images/stage3.png)
 
-### 3. Project Value
+### 3. Project Property Value
+![value histogram](src/images/value.png)
+
 ### Further Analysis / Improvements
 ### Future Recommendations
