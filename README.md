@@ -34,6 +34,7 @@ The main body of the dataset includes numerical entries of hours spent on differ
 
 Current estimated property value resource: [Property Checker](https://propertychecker.co.uk/)
 
+
 ## Summary of Findings from Exploratory Data Analysis (EDA)
 ### 1. Director Impact
 It was discovered that Director B tends to quote fewer total hours but results in more overtime. From the EDA, it was clear that Directors A and B tend to take on fairly similar valued projects. However, Director A seems to be more realistic when quoting, resulting in overall less overtime than Director B's projects. Despite this, both directors still face significant overtime issues on projects.
